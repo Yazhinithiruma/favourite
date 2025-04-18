@@ -1,0 +1,15 @@
+{
+    "name": "movie_choice_app_backend",
+    "version": "1.0.0",
+    "description": "Backend for Movie Choice App",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}

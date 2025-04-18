@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Choice App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vote for Your Favorite Actor and Movie</h1>
+
+        <form id="vote-form">
+            <label for="actor">Favorite Actor:</label>
+            <input type="text" id="actor" name="actor" required>
+
+            <label for="movie">Favorite Movie:</label>
+            <input type="text" id="movie" name="movie" required>
+
+            <button type="submit">Submit Vote</button>
+        </form>
+
+        <div class="history-btn">
+            <button id="history-btn">View History</button>
+        </div>
+
+        <div id="history" class="history"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
